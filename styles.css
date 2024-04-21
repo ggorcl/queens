@@ -1,0 +1,24 @@
+.grid {
+  width: 800px;
+  height: 800px;
+  border: 1px solid red;
+  display: grid;
+  grid-template-columns: repeat(8, 100px);
+  grid-template-rows: repeat(8, 100px);
+}
+
+.square {
+  border: 1px solid blue;
+}
+
+.multi-attacked {
+  background: rgb(255, 0, 0);
+}
+
+.attacked {
+  background: rgb(235, 137, 137);
+}
+
+.queen {
+  background: yellowgreen;
+}
