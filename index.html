@@ -9,8 +9,25 @@
 </head>
 
 <body>
-  <div class="grid" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+  <div class="container">
+    <div class="grid" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div class="color-selectors">
+      <div>
+        <label for="multiAttackedColor">Multi-attacked:</label>
+        <input type="color" id="multiAttackedColor" value="#ff0000">
+      </div>
+      <div>
+        <label for="attackedColor">Attacked:</label>
+        <input type="color" id="attackedColor" value="#eb8989">
+      </div>
+      <div>
+        <label for="queenColor">Queen:</label>
+        <input type="color" id="queenColor" value="#9acd32">
+      </div>
 
+      <button onclick="location.reload()"> RESET </button>
+    </div>
+  </div>
 </body>
 <script src="script.js"></script>
 
